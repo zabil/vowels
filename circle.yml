@@ -10,3 +10,5 @@ test:
   post:
     - gauge --install-all
     - gauge specs
+    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+    - cp ./reports/xml-report/result.xml $CIRCLE_TEST_REPORTS/junit/
