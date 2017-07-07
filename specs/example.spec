@@ -8,7 +8,7 @@ To execute this specification, run
 	gauge specs
 
 
-* Vowels in English language are "aeiou".
+* Vowels in English language are "u".
 
 Vowel counts in single word
 ---------------------------
