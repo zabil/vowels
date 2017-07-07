@@ -8,5 +8,5 @@ dependencies:
 
 test:
   post:
-    - gauge --install
+    - gauge --install-all
     - gauge specs
